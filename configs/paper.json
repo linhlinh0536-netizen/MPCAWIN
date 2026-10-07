@@ -1,0 +1,21 @@
+{
+  "name": "paper",
+  "description": "Author-code baseline; local reconstructed subset is not the exact published subset",
+  "batch_size": 2000,
+  "min_window_size": 10,
+  "max_window_size": 10,
+  "coef_std": 2,
+  "detect_strategy": "detector",
+  "backend": "legacy",
+  "kswin_alpha": 0.009,
+  "kswin_window_size": 20,
+  "kswin_stat_size": 5,
+  "seed": 20,
+  "scaling": "reference",
+  "rounding": "legacy",
+  "pca_solver": "auto",
+  "alert_window_size": 20,
+  "alert_alpha": 0.5,
+  "remainder": "error",
+  "matching_horizon_batches": 20
+}

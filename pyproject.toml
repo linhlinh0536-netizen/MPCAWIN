@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68,<83"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mpcawin"
+version = "0.2.0"
+description = "MPCAWIN with explicit paper baseline and experiment configurations"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dynamic = ["dependencies"]
+
+[project.scripts]
+mpcawin-run = "mpcawin_run:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["mpcawin", "kswin_compat", "mpcawin_run", "dataset_manifest"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

@@ -1,0 +1,11 @@
+{
+  "author_commit": "e810ffc5e1d6d11cc66b74faa3fee6774cd15f52",
+  "author_source_sha256": "19d43f1e80d8318b6ac90834c58cb80b03670922ed33a59de9f70724694e9d6d",
+  "original_matches_author_bytes": true,
+  "runtime_only_difference_from_author": "KSWIN import points to local kswin_compat",
+  "kswin_reference": "scikit-multiflow 0.5.3 source, extracted class with unused base stub; not an installed full scikit-multiflow package",
+  "kswin_alert_updates_compared": 149,
+  "kswin_decisions_equal": true,
+  "kswin_window_states_equal": true,
+  "kswin_tested_p_values_equal": true
+}

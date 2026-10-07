@@ -1,0 +1,184 @@
+======================================================================
+READING IMPRTOTAL
+======================================================================
+File:
+/Users/linhkhanh/Downloads/hoids/datasets-main/ImprTotal.csv
+
+Dataset shape:
+(320000, 93)
+
+======================================================================
+FEATURES USED BY MPCAWIN
+======================================================================
+Dropped columns:
+['id', 'Flow ID', 'Src IP', 'Dst IP', 'Timestamp', 'Attempted Category', 'attack_name', 'attack_flag', 'attack_step']
+
+Number of numerical features:
+84
+
+Features:
+['Src Port', 'Dst Port', 'Protocol', 'Flow Duration', 'Total Fwd Packet', 'Total Bwd packets', 'Total Length of Fwd Packet', 'Total Length of Bwd Packet', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Fwd Packet Length Std', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Std', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Total', 'Fwd IAT Mean', 'Fwd IAT Std', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Bwd IAT Min', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Fwd RST Flags', 'Bwd RST Flags', 'Fwd Header Length', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Packet Length Min', 'Packet Length Max', 'Packet Length Mean', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWR Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Fwd Segment Size Avg', 'Bwd Segment Size Avg', 'Fwd Bytes/Bulk Avg', 'Fwd Packet/Bulk Avg', 'Fwd Bulk Rate Avg', 'Bwd Bytes/Bulk Avg', 'Bwd Packet/Bulk Avg', 'Bwd Bulk Rate Avg', 'Subflow Fwd Packets', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'FWD Init Win Bytes', 'Bwd Init Win Bytes', 'Fwd Act Data Pkts', 'Fwd Seg Size Min', 'Active Mean', 'Active Std', 'Active Max', 'Active Min', 'Idle Mean', 'Idle Std', 'Idle Max', 'Idle Min', 'ICMP Code', 'ICMP Type', 'Total TCP Flow Time']
+
+======================================================================
+DATA CHECK
+======================================================================
+NaN: 0
+Inf: 0
+
+======================================================================
+MPCAWIN
+======================================================================
+Batch size: 2000
+Number of full batches: 160
+Remaining records: 0
+Ground-truth drift starts at batch: 80
+
+=== MPCAWIN CONFIG ===
+min_window_size = 10
+max_window_size = 10
+coef_std = 3
+KSWIN alpha = 0.009
+KSWIN window_size = 20
+KSWIN stat_size = 5
+
+======================================================================
+STREAM START
+======================================================================
+Batch   0 | Impr2017 | angle=  None | thr=  None | alert=None | KS=  None | p=        None | W=  0 | drift=False
+Batch   1 | Impr2017 | angle=  39.5 | thr=  None | alert=None | KS=  None | p=        None | W=  0 | drift=False
+Batch   2 | Impr2017 | angle= 16.88 | thr=  None | alert=None | KS=  None | p=        None | W=  0 | drift=False
+Batch   3 | Impr2017 | angle=  4.99 | thr=  None | alert=None | KS=  None | p=        None | W=  0 | drift=False
+Batch   4 | Impr2017 | angle=  5.81 | thr=  None | alert=None | KS=  None | p=        None | W=  0 | drift=False
+Batch  60 | Impr2017 | angle=  9.82 | thr= 12.05 | alert=   0 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  61 | Impr2017 | angle=  6.43 | thr= 13.05 | alert=   0 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  62 | Impr2017 | angle=  6.62 | thr= 13.04 | alert=   0 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  63 | Impr2017 | angle=  7.56 | thr= 12.44 | alert=   0 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  64 | Impr2017 | angle=  7.14 | thr= 11.52 | alert=   0 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  65 | Impr2017 | angle= 21.27 | thr= 11.57 | alert=   1 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  66 | Impr2017 | angle=  9.46 | thr= 11.57 | alert=   0 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  67 | Impr2017 | angle=  6.07 | thr= 12.24 | alert=   0 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  68 | Impr2017 | angle= 16.46 | thr= 11.71 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  69 | Impr2017 | angle=  8.27 | thr= 11.71 | alert=   0 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  70 | Impr2017 | angle= 33.54 | thr= 11.41 | alert=   1 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  71 | Impr2017 | angle= 19.67 | thr= 11.41 | alert=   1 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  72 | Impr2017 | angle=  6.49 | thr= 11.41 | alert=   0 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  73 | Impr2017 | angle=  36.7 | thr= 11.43 | alert=   1 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  74 | Impr2017 | angle= 14.27 | thr= 11.43 | alert=   1 | KS=   0.6 | p=0.35714285714285715 | W= 20 | drift=False
+Batch  75 | Impr2017 | angle=  4.97 | thr= 11.43 | alert=   0 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  76 | Impr2017 | angle=  7.47 | thr= 11.62 | alert=   0 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  77 | Impr2017 | angle=  3.81 | thr= 10.59 | alert=   0 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  78 | Impr2017 | angle=  8.93 | thr= 11.37 | alert=   0 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  79 | Impr2017 | angle=  36.7 | thr= 11.98 | alert=   1 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  80 | Impr2018 | angle= 29.95 | thr= 11.98 | alert=   1 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  81 | Impr2018 | angle= 30.45 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  82 | Impr2018 | angle=  41.0 | thr= 11.98 | alert=   1 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  83 | Impr2018 | angle= 42.95 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  84 | Impr2018 | angle= 27.92 | thr= 11.98 | alert=   1 | KS=   0.6 | p=0.35714285714285715 | W= 20 | drift=False
+Batch  85 | Impr2018 | angle= 29.97 | thr= 11.98 | alert=   1 | KS=   0.6 | p=0.35714285714285715 | W= 20 | drift=False
+Batch  86 | Impr2018 | angle=  30.1 | thr= 11.98 | alert=   1 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  87 | Impr2018 | angle= 24.71 | thr= 11.98 | alert=   1 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  88 | Impr2018 | angle= 29.53 | thr= 11.98 | alert=   1 | KS=   0.6 | p=0.35714285714285715 | W= 20 | drift=False
+Batch  89 | Impr2018 | angle=  26.3 | thr= 11.98 | alert=   1 | KS=   0.6 | p=0.35714285714285715 | W= 20 | drift=False
+Batch  90 | Impr2018 | angle= 30.28 | thr= 11.98 | alert=   1 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  91 | Impr2018 | angle=  29.2 | thr= 11.98 | alert=   1 | KS=   0.6 | p=0.35714285714285715 | W= 20 | drift=False
+Batch  92 | Impr2018 | angle= 28.53 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  93 | Impr2018 | angle= 38.33 | thr= 11.98 | alert=   1 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  94 | Impr2018 | angle= 28.67 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  95 | Impr2018 | angle= 28.86 | thr= 11.98 | alert=   1 | KS=   0.4 | p=0.873015873015873 | W= 20 | drift=False
+Batch  96 | Impr2018 | angle= 28.72 | thr= 11.98 | alert=   1 | KS=   0.2 | p=         1.0 | W= 20 | drift=False
+Batch  97 | Impr2018 | angle= 28.46 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  98 | Impr2018 | angle= 29.71 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch  99 | Impr2018 | angle= 24.91 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch 100 | Impr2018 | angle= 42.96 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch 157 | Impr2018 | angle= 42.98 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch 158 | Impr2018 | angle= 28.13 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+Batch 159 | Impr2018 | angle= 28.37 | thr= 11.98 | alert=   1 | KS=   0.0 | p=         1.0 | W= 20 | drift=False
+
+======================================================================
+RESULT
+======================================================================
+Ground-truth drift batch: 80
+Detected drift batches: []
+
+No drift was detected after ground-truth boundary.
+
+False detections before drift: []
+
+======================================================================
+SAD ALERT DISTRIBUTION
+======================================================================
+
+Before drift (batch 10-79):
+alert
+0.0    51
+1.0    18
+NaN     1
+Name: count, dtype: int64
+
+After drift (batch 80-99):
+alert
+1.0    20
+Name: count, dtype: int64
+
+======================================================================
+DEBUG AROUND DRIFT: BATCH 70-100
+======================================================================
+ batch_id   source  angle  threshold_used  alert  ks_statistic  ks_p_value  ks_window_length  drift_detected
+       70 Impr2017  33.54           11.41    1.0           0.2    1.000000                20           False
+       71 Impr2017  19.67           11.41    1.0           0.4    0.873016                20           False
+       72 Impr2017   6.49           11.41    0.0           0.4    0.873016                20           False
+       73 Impr2017  36.70           11.43    1.0           0.2    1.000000                20           False
+       74 Impr2017  14.27           11.43    1.0           0.6    0.357143                20           False
+       75 Impr2017   4.97           11.43    0.0           0.4    0.873016                20           False
+       76 Impr2017   7.47           11.62    0.0           0.4    0.873016                20           False
+       77 Impr2017   3.81           10.59    0.0           0.4    0.873016                20           False
+       78 Impr2017   8.93           11.37    0.0           0.4    0.873016                20           False
+       79 Impr2017  36.70           11.98    1.0           0.2    1.000000                20           False
+       80 Impr2018  29.95           11.98    1.0           0.4    0.873016                20           False
+       81 Impr2018  30.45           11.98    1.0           0.0    1.000000                20           False
+       82 Impr2018  41.00           11.98    1.0           0.2    1.000000                20           False
+       83 Impr2018  42.95           11.98    1.0           0.0    1.000000                20           False
+       84 Impr2018  27.92           11.98    1.0           0.6    0.357143                20           False
+       85 Impr2018  29.97           11.98    1.0           0.6    0.357143                20           False
+       86 Impr2018  30.10           11.98    1.0           0.4    0.873016                20           False
+       87 Impr2018  24.71           11.98    1.0           0.2    1.000000                20           False
+       88 Impr2018  29.53           11.98    1.0           0.6    0.357143                20           False
+       89 Impr2018  26.30           11.98    1.0           0.6    0.357143                20           False
+       90 Impr2018  30.28           11.98    1.0           0.4    0.873016                20           False
+       91 Impr2018  29.20           11.98    1.0           0.6    0.357143                20           False
+       92 Impr2018  28.53           11.98    1.0           0.0    1.000000                20           False
+       93 Impr2018  38.33           11.98    1.0           0.4    0.873016                20           False
+       94 Impr2018  28.67           11.98    1.0           0.0    1.000000                20           False
+       95 Impr2018  28.86           11.98    1.0           0.4    0.873016                20           False
+       96 Impr2018  28.72           11.98    1.0           0.2    1.000000                20           False
+       97 Impr2018  28.46           11.98    1.0           0.0    1.000000                20           False
+       98 Impr2018  29.71           11.98    1.0           0.0    1.000000                20           False
+       99 Impr2018  24.91           11.98    1.0           0.0    1.000000                20           False
+      100 Impr2018  42.96           11.98    1.0           0.0    1.000000                20           False
+
+======================================================================
+LOWEST KSWIN P-VALUES
+======================================================================
+ batch_id   source  alert  ks_statistic  ks_p_value  drift_detected
+       40 Impr2017    1.0           0.8    0.079365           False
+       91 Impr2018    1.0           0.6    0.357143           False
+       84 Impr2018    1.0           0.6    0.357143           False
+       85 Impr2018    1.0           0.6    0.357143           False
+       88 Impr2018    1.0           0.6    0.357143           False
+       89 Impr2018    1.0           0.6    0.357143           False
+       74 Impr2017    1.0           0.6    0.357143           False
+       35 Impr2017    0.0           0.4    0.873016           False
+       71 Impr2017    1.0           0.4    0.873016           False
+       75 Impr2017    0.0           0.4    0.873016           False
+       76 Impr2017    0.0           0.4    0.873016           False
+       77 Impr2017    0.0           0.4    0.873016           False
+       78 Impr2017    0.0           0.4    0.873016           False
+       65 Impr2017    1.0           0.4    0.873016           False
+       80 Impr2018    1.0           0.4    0.873016           False
+
+======================================================================
+SAVED
+======================================================================
+/var/folders/zz/vjw_c9k50c191l58l4p2w71m0000gn/T/mpcawin-impr-review-o5qbt1ve/mpcawin_results.csv
+
+DONE.

@@ -1,0 +1,7 @@
+{
+  "extends": "paper.json",
+  "name": "legacy_60_20",
+  "description": "Experimental legacy KSWIN window 60 / statistic sample 20; all other paper baseline settings retained",
+  "kswin_window_size": 60,
+  "kswin_stat_size": 20
+}

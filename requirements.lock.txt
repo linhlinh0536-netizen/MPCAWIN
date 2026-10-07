@@ -1,0 +1,8 @@
+# Complete runtime dependency set verified locally on macOS arm64 / Python 3.9.25.
+-r requirements.txt
+joblib==1.5.3
+python-dateutil==2.9.0.post0
+pytz==2026.4
+six==1.17.0
+threadpoolctl==3.7.0
+tzdata==2026.4

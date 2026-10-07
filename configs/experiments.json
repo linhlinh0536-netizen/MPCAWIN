@@ -1,0 +1,11 @@
+{
+  "description": "Explicit extensions; these do not reproduce the paper unchanged",
+  "configurations": [
+    {"extends": "paper.json", "name": "coefficient_3", "description": "Coefficient sensitivity c=3, matching the previous local runner", "coef_std": 3},
+    {"extends": "legacy_60_20.json"},
+    {"extends": "paper.json", "name": "river_60_20", "description": "Experimental River KSWIN with window 60 / statistic sample 20", "backend": "river", "kswin_window_size": 60, "kswin_stat_size": 20},
+    {"extends": "paper.json", "name": "alert_rate_20", "description": "Experimental alert-rate confirmation with window 20 and ratio .5", "detect_strategy": "alert_rate"},
+    {"extends": "paper.json", "name": "batch_scaling", "description": "Variant interpreting the paper text as independent per-batch standardization", "scaling": "batch"},
+    {"extends": "paper.json", "name": "full_precision", "description": "Experimental decisions without angle or threshold rounding", "rounding": "full"}
+  ]
+}

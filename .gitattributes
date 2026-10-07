@@ -1,0 +1,2 @@
+baselines/before_repair/** -text -whitespace
+src/mpcawin_original.py -text -whitespace

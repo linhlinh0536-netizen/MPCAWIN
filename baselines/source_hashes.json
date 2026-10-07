@@ -1,0 +1,16 @@
+{
+  "author_commit": "e810ffc5e1d6d11cc66b74faa3fee6774cd15f52",
+  "files": {
+    "src/mpcawin_original.py": "19d43f1e80d8318b6ac90834c58cb80b03670922ed33a59de9f70724694e9d6d",
+    "baselines/before_repair/c_sensitivity_results.csv": "205f932bd61a05bc1ae91d529ef750d10e84e61b1b5e853f1c005254172c594e",
+    "baselines/before_repair/dataset_scripts/compare_columns.py": "ee9651818560e96695bf7b395381edc00019ca41a987412c35e369bce1a59489",
+    "baselines/before_repair/dataset_scripts/create_imprtotal.py": "860f4709f8ee90598c6a14fe0addb0f9e96f53f25f3a0ff8904d18517598cab9",
+    "baselines/before_repair/dataset_scripts/prepare_impr_stratified.py": "aceb3c6a4f8ed7d0beaafb55cd1475bc1f07394860be37aa2640abd23f97ef2c",
+    "baselines/before_repair/dataset_scripts/split_batches.py": "4eba543e190c8a3e22bb6d3e8a99a4f08c14b91b088629a12a508b94f46dcff5",
+    "baselines/before_repair/mpcawin_results.csv": "f70ede089963b847339415b62eba9018db51e48eec4707527aeebb5eb7e132f8",
+    "baselines/before_repair/run_imprtotal.py": "ca9377e2ab54bdaf2368ab0f1a39d1f5721cd065ddfb576171742ae47faa6783",
+    "baselines/before_repair/src/kswin_compat.py": "23299f7bddecb5d2dce80e3832b9227897c36c146c6e414d982eb415b20bf931",
+    "baselines/before_repair/src/mpcawin.py": "0c365ad217c05a6fdc20824c5ac14d2af359b546946b7f1d58279a201a03ea9c",
+    "baselines/before_repair/test_c_values.py": "c2d10436de66558f74d49ecab9fffa2554cda202f282525132835bfed5184f9c"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "full_stream": [
+    {
+      "configuration": {
+        "name": "paper",
+        "description": "author-code baseline on a reconstructed subset",
+        "batch_size": 2000,
+        "min_window_size": 10,
+        "max_window_size": 10,
+        "coef_std": 2,
+        "detect_strategy": "detector",
+        "backend": "legacy",
+        "kswin_alpha": 0.009,
+        "kswin_window_size": 20,
+        "kswin_stat_size": 5,
+        "seed": 20,
+        "scaling": "reference",
+        "rounding": "legacy",
+        "pca_solver": "auto",
+        "alert_window_size": 20,
+        "alert_alpha": 0.5,
+        "remainder": "error",
+        "matching_horizon_batches": 20
+      },
+      "rows": 320000,
+      "processed_rows": 320000,
+      "dropped_rows": 0,
+      "detected_batches": [],
+      "evaluated_batches": 149,
+      "alert_count": 98,
+      "evaluation": {
+        "matches": [
+          {
+            "boundary_row": 160000,
+            "boundary_batch_id0": 80,
+            "detection_batch_id0": null,
+            "index_delay_batches": null,
+            "consumed_new_concept_batches": null,
+            "consumed_new_concept_records": null,
+            "missed": true
+          }
+        ],
+        "unmatched_detection_batches": [],
+        "detections_before_first_boundary": [],
+        "matching_horizon_batches": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "batch_scaler",
+        "description": "author-code baseline on a reconstructed subset",
+        "batch_size": 2000,
+        "min_window_size": 10,
+        "max_window_size": 10,
+        "coef_std": 2,
+        "detect_strategy": "detector",
+        "backend": "legacy",
+        "kswin_alpha": 0.009,
+        "kswin_window_size": 20,
+        "kswin_stat_size": 5,
+        "seed": 20,
+        "scaling": "batch",
+        "rounding": "legacy",
+        "pca_solver": "auto",
+        "alert_window_size": 20,
+        "alert_alpha": 0.5,
+        "remainder": "error",
+        "matching_horizon_batches": 20
+      },
+      "rows": 320000,
+      "processed_rows": 320000,
+      "dropped_rows": 0,
+      "detected_batches": [],
+      "evaluated_batches": 149,
+      "alert_count": 87,
+      "evaluation": {
+        "matches": [
+          {
+            "boundary_row": 160000,
+            "boundary_batch_id0": 80,
+            "detection_batch_id0": null,
+            "index_delay_batches": null,
+            "consumed_new_concept_batches": null,
+            "consumed_new_concept_records": null,
+            "missed": true
+          }
+        ],
+        "unmatched_detection_batches": [],
+        "detections_before_first_boundary": [],
+        "matching_horizon_batches": 20
+      }
+    },
+    {
+      "configuration": {
+        "name": "full_pca",
+        "description": "author-code baseline on a reconstructed subset",
+        "batch_size": 2000,
+        "min_window_size": 10,
+        "max_window_size": 10,
+        "coef_std": 2,
+        "detect_strategy": "detector",
+        "backend": "legacy",
+        "kswin_alpha": 0.009,
+        "kswin_window_size": 20,
+        "kswin_stat_size": 5,
+        "seed": 20,
+        "scaling": "reference",
+        "rounding": "legacy",
+        "pca_solver": "full",
+        "alert_window_size": 20,
+        "alert_alpha": 0.5,
+        "remainder": "error",
+        "matching_horizon_batches": 20
+      },
+      "rows": 320000,
+      "processed_rows": 320000,
+      "dropped_rows": 0,
+      "detected_batches": [],
+      "evaluated_batches": 149,
+      "alert_count": 98,
+      "evaluation": {
+        "matches": [
+          {
+            "boundary_row": 160000,
+            "boundary_batch_id0": 80,
+            "detection_batch_id0": null,
+            "index_delay_batches": null,
+            "consumed_new_concept_batches": null,
+            "consumed_new_concept_records": null,
+            "missed": true
+          }
+        ],
+        "unmatched_detection_batches": [],
+        "detections_before_first_boundary": [],
+        "matching_horizon_batches": 20
+      }
+    }
+  ],
+  "first_event_replay": [
+    {
+      "seed": 0,
+      "first_detection": null
+    },
+    {
+      "seed": 1,
+      "first_detection": null
+    },
+    {
+      "seed": 2,
+      "first_detection": null
+    },
+    {
+      "seed": 3,
+      "first_detection": 84
+    },
+    {
+      "seed": 4,
+      "first_detection": null
+    },
+    {
+      "seed": 5,
+      "first_detection": null
+    },
+    {
+      "seed": 6,
+      "first_detection": 91
+    },
+    {
+      "seed": 7,
+      "first_detection": 86
+    },
+    {
+      "seed": 8,
+      "first_detection": null
+    },
+    {
+      "seed": 9,
+      "first_detection": null
+    },
+    {
+      "seed": 10,
+      "first_detection": null
+    },
+    {
+      "seed": 11,
+      "first_detection": null
+    },
+    {
+      "seed": 12,
+      "first_detection": null
+    },
+    {
+      "seed": 13,
+      "first_detection": null
+    },
+    {
+      "seed": 14,
+      "first_detection": 88
+    },
+    {
+      "seed": 15,
+      "first_detection": null
+    },
+    {
+      "seed": 16,
+      "first_detection": null
+    },
+    {
+      "seed": 17,
+      "first_detection": null
+    },
+    {
+      "seed": 18,
+      "first_detection": null
+    },
+    {
+      "seed": 19,
+      "first_detection": null
+    },
+    {
+      "seed": 20,
+      "first_detection": null
+    },
+    {
+      "seed": 21,
+      "first_detection": null
+    },
+    {
+      "seed": 22,
+      "first_detection": null
+    },
+    {
+      "seed": 23,
+      "first_detection": 88
+    },
+    {
+      "seed": 24,
+      "first_detection": null
+    },
+    {
+      "seed": 25,
+      "first_detection": null
+    },
+    {
+      "seed": 26,
+      "first_detection": null
+    },
+    {
+      "seed": 27,
+      "first_detection": null
+    },
+    {
+      "seed": 28,
+      "first_detection": null
+    },
+    {
+      "seed": 29,
+      "first_detection": 85
+    },
+    {
+      "seed": 30,
+      "first_detection": null
+    },
+    {
+      "seed": 31,
+      "first_detection": null
+    },
+    {
+      "seed": 32,
+      "first_detection": null
+    },
+    {
+      "seed": 33,
+      "first_detection": null
+    },
+    {
+      "seed": 34,
+      "first_detection": null
+    },
+    {
+      "seed": 35,
+      "first_detection": null
+    },
+    {
+      "seed": 36,
+      "first_detection": null
+    },
+    {
+      "seed": 37,
+      "first_detection": null
+    },
+    {
+      "seed": 38,
+      "first_detection": null
+    },
+    {
+      "seed": 39,
+      "first_detection": null
+    },
+    {
+      "seed": 40,
+      "first_detection": null
+    },
+    {
+      "seed": 41,
+      "first_detection": null
+    },
+    {
+      "seed": 42,
+      "first_detection": null
+    },
+    {
+      "seed": 43,
+      "first_detection": null
+    },
+    {
+      "seed": 44,
+      "first_detection": null
+    },
+    {
+      "seed": 45,
+      "first_detection": 84
+    },
+    {
+      "seed": 46,
+      "first_detection": null
+    },
+    {
+      "seed": 47,
+      "first_detection": null
+    },
+    {
+      "seed": 48,
+      "first_detection": null
+    },
+    {
+      "seed": 49,
+      "first_detection": null
+    }
+  ],
+  "replay_scope": "confirmation only, valid until the first reset"
+}

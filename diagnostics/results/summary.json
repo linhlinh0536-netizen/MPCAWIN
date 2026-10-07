@@ -1,0 +1,61 @@
+{
+  "data": "/Users/linhkhanh/Downloads/hoids/datasets-main/ImprTotal.csv",
+  "shape": [
+    320000,
+    93
+  ],
+  "numeric_features": 84,
+  "batch_size": 2000,
+  "boundary_batch": 80,
+  "python": "3.9.25",
+  "mpcawin_source": "/Users/linhkhanh/Downloads/MPCAWIN-main/src/mpcawin.py",
+  "kswin_source": "/Users/linhkhanh/Downloads/MPCAWIN-main/src/kswin_compat.py",
+  "results": [
+    {
+      "configuration": "local_20_5",
+      "detections": [],
+      "before_boundary_detections": [],
+      "delay_batches": null,
+      "before_alerts": 18,
+      "before_evaluated": 69,
+      "after_alerts": 80,
+      "after_evaluated": 80
+    },
+    {
+      "configuration": "local_60_20",
+      "detections": [
+        94
+      ],
+      "before_boundary_detections": [],
+      "delay_batches": 14,
+      "before_alerts": 18,
+      "before_evaluated": 69,
+      "after_alerts": 15,
+      "after_evaluated": 70
+    },
+    {
+      "configuration": "river_60_20",
+      "detections": [
+        95
+      ],
+      "before_boundary_detections": [],
+      "delay_batches": 15,
+      "before_alerts": 18,
+      "before_evaluated": 69,
+      "after_alerts": 16,
+      "after_evaluated": 70
+    },
+    {
+      "configuration": "alert_rate_20",
+      "detections": [
+        82
+      ],
+      "before_boundary_detections": [],
+      "delay_batches": 2,
+      "before_alerts": 18,
+      "before_evaluated": 69,
+      "after_alerts": 5,
+      "after_evaluated": 70
+    }
+  ]
+}
